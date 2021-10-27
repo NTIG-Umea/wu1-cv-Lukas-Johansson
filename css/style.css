@@ -29,11 +29,14 @@ h3 {
 p {
     font-size: 0.75rem;
 }
+
 nav {
     display: flex;
     align-items: center;
     background-color: #67C0B6;
     color: #ffffff;
+    position: sticky;
+    top: 0px;
 }
 
 .nav__inner {
@@ -56,32 +59,8 @@ img {
     right: 50px;
 }
 
-.back-to-top__wrapper {
-    display: flex;
-    justify-content: flex-end;
-}
 
-.back-to-top__link {
-    padding: .2rem;
-    position: fixed;
-    top: calc(100vh - 5rem);
-    background-color: #FEFED8;
-}
 
-.container {
-    position: relative;
-    max-width: 48rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    margin-right: auto;
-    margin-left: auto;
-}
 
-.record__header {
-    padding-top: 2rem;
 
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
 
