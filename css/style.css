@@ -19,28 +19,25 @@ h1, h2, h3, p {
 
 h1 {
     font-size: 3rem;
+    margin-left: 0.5%;
 }
 h2 {
     font-size: 2rem;
 }
 h3 {
     font-size: 1rem;
+    margin-left: 3%;
 }
 p {
     font-size: 0.75rem;
+}
+li {
+    color: #696969;
 }
 
 footer {
     margin-top: 4rem;
     margin-bottom: 2rem;
-}
-
-.container {
-    position: relative;
-    max-width: 48rem;
-    padding-right: 1rem;
-    padding-left: 1rem;
-    left: 30rem;
 }
 
 .header_ben {
@@ -50,21 +47,45 @@ footer {
     align-items: center;
     position: sticky;
     top: 0px;
+    box-shadow: 0rem 0rem 0.5rem #2e2e2e;
+    z-index: 1;
 }
 
 main {
     display: flex;
-}
-
-.img_bot{
-    width: 10rem;
-    nav-right: 10rem;
+    align-items: center;
 }
 
 
 
+.img_beans{
+    margin-top: -150%;
+    width: 140%;
+    margin-left: 2%;
+}
 
+.img_bert{
+    margin-top: -150%;
+    width: 140%;
+    margin-left: 186%;
+}
 
+.logo{
+    margin-left: 2%;
+}
 
+.beans{
+    margin-left: 10%;
+}
+
+.container {
+    margin-left: 22.5%;
+}
+
+.potatis {
+    margin-left: -10%;
+    width: 140%;
+    margin-top: 5%;
+}
 
 
